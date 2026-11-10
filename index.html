@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CyberAware</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">🛡️ CyberAware <span id="aibadge" class="aibadge" hidden></span></div>
+    <div class="hud">
+      <span id="streak" class="streak" hidden></span>
+      <div id="progress" class="progress" aria-label="Progression"></div>
+    </div>
+  </header>
+  <div class="bar" aria-hidden="true"><div id="barfill" class="barfill"></div></div>
+  <main id="app" aria-live="polite"></main>
+
+  <script src="scenarios.js"></script>
+  <script src="org.js"></script>
+  <script src="mascot.js"></script>
+  <script src="ai.js"></script>
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

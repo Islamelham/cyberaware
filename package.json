@@ -1,0 +1,13 @@
+{
+  "name": "cyberaware",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Application de sensibilisation aux cyberattaques avec scénarios générés par IA",
+  "scripts": {
+    "start": "node server/server.js",
+    "lan": "node server/server.js --lan"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
